@@ -15,5 +15,4 @@ CASE operator.
 		result = a / b.
 ENDCASE.
 
-WRITE: 'Result of operation is ', result.
-	
+WRITE: 'Result of operation is ', result.	
