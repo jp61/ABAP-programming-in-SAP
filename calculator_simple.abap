@@ -1,8 +1,11 @@
+"simple report abap calculator
 REPORT Z_CALCULATOR.
-PARAMETERS:	a TYPE i,
+PARAMETERS:	
+			a TYPE i,
 			b TYPE i,
 			operator TYPE c.
-DATA:	result TYPE i.
+DATA:
+			result TYPE i.
 
 CASE operator.
 	WHEN '+'.
@@ -11,8 +14,8 @@ CASE operator.
 		result = a - b.
 	WHEN '*'.
 		result = a * b.
-	WHEN '/'
+	WHEN '/'.
 		result = a / b.
 ENDCASE.
 
-WRITE: 'Result of operation is ', result.	
+WRITE: 'Result of operation is ', result.
