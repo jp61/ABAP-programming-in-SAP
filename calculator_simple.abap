@@ -1,4 +1,7 @@
-"simple report abap calculator
+*********************************
+* simple report abap calculator *
+* author jp61					*
+********************************* 
 REPORT Z_CALCULATOR.
 PARAMETERS:	
 			a TYPE i,
