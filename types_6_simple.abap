@@ -4,9 +4,8 @@ REPORT  Z_JP_01.
 " SLIS all ALV data types
 TYPE-POOLS: slis.  
 
-DATA: lt_jp TYPE TABLE OF spfli.
-	  
-DATA: it_fieldcat  TYPE slis_t_fieldcat_alv,
+DATA: lt_jp TYPE TABLE OF spfli,
+      it_fieldcat  TYPE slis_t_fieldcat_alv,
       wa_fieldcat  TYPE slis_fieldcat_alv.
 	  
 START-OF-SELECTION.	
