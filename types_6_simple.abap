@@ -1,7 +1,7 @@
 *Juraj Piovar
 REPORT  Z_JP_01.
 
-" SLIS vsetky ALV data types
+" SLIS all ALV data types
 TYPE-POOLS: slis.  
 
 DATA: lt_jp TYPE TABLE OF spfli.
